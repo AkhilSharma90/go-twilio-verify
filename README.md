@@ -80,7 +80,7 @@ Request Body
 ```
 
 ```bash
-curl -H "Content-Type: application/json" -X POST -d '{"user": {"phoneNumber": "+917420840576"}, "code":"795279"' http://localhost:8000/verifyOTP
+curl -H "Content-Type: application/json" -X POST -d '{"user": {"phoneNumber": "+917420840576"}, "code":"795279"}' http://localhost:8000/verifyOTP
 ```
 
 Response
